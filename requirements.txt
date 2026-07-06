@@ -1,0 +1,15 @@
+# TENNET-stealer — Python dependencies (Windows only)
+# Install: pip install -r requirements.txt
+
+# Core extractor (tennet.py)
+pycryptodome>=3.20.0
+pywin32>=306
+cryptography>=42.0.0
+requests>=2.31.0
+PythonForWindows>=0.6.0
+
+# Session injector (takeover.py)
+websocket-client>=1.7.0
+
+# EXE builder (builder.py, build_builder.py, build_takeover.py)
+pyinstaller>=6.3.0
